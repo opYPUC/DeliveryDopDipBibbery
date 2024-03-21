@@ -1,5 +1,6 @@
 from aiogram import executor
 from loader import dp,bot
+import handlers
 
 if __name__ == '__main__':
     executor.start_polling(dp)
