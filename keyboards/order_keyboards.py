@@ -13,10 +13,12 @@ def generate_yes_no_kb(type_q:str) -> InlineKeyboardMarkup:
 
 what_burger_additive_kb = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text="сыр",callback_data="cheese")],
-    [InlineKeyboardButton(text="соус",callback_data="sauce")]
+    [InlineKeyboardButton(text="соус",callback_data="sauce")],
+    [InlineKeyboardButton(text="закончить",callback_data="end1")]
 ])
 
 what_fries_additive_kb = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text="соль",callback_data="salt")],
-    [InlineKeyboardButton(text="сахар",callback_data="sugar")]
+    [InlineKeyboardButton(text="сахар",callback_data="sugar")],
+    [InlineKeyboardButton(text="закончить",callback_data="end1")]
 ])
